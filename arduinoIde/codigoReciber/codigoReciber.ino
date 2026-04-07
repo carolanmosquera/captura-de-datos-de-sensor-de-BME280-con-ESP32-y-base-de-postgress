@@ -1,50 +1,100 @@
 #include <esp_now.h>
 #include <WiFi.h>
+#include <HTTPClient.h>
+#include <ArduinoJson.h>
 
-// ================== ESTRUCTURA DE DATOS (IDÉNTICA AL EMISOR) ==================
+// ================== CONFIGURACIÓN DE RED ==================
+const char* ssid     = "TU_WIFI_SSID";
+const char* password = "TU_WIFI_PASSWORD";
+
+// URL de tu aplicación en Render
+const char* serverUrl = "https://TU-APP.onrender.com/api/rest/telemetry";
+
+// ================== ESTRUCTURA DE DATOS ==================
 typedef struct struct_message {
-  int id;               // Identificador único del nodo (1, 2, 3, ...)
+  int id;
   float temperature;
   float humidity;
   float pressure;
   float altitude;
-  float extra_variable; // Para futura expansión (NPK, pH, etc.)
+  float extra_variable;
 } struct_message;
 
-// ================== CONFIGURACIÓN ESCALABLE ==================
-#define MAX_DEVICES 10   // Máximo número de dispositivos emisores esperados
-struct_message devicesData[MAX_DEVICES];  // Array para almacenar los datos de cada dispositivo
+#define MAX_DEVICES 10
+struct_message devicesData[MAX_DEVICES];
 
-// ================== CALLBACK DE RECEPCIÓN ==================
+// ================== FUNCIÓN: ENVIAR HTTP POST ==================
+void sendToServer(struct_message& data) {
+  if (WiFi.status() != WL_CONNECTED) {
+    Serial.println("WiFi desconectado, intentando reconectar...");
+    WiFi.begin(ssid, password);
+    int retries = 0;
+    while (WiFi.status() != WL_CONNECTED && retries < 10) {
+      delay(500);
+      Serial.print(".");
+      retries++;
+    }
+    if (WiFi.status() != WL_CONNECTED) {
+      Serial.println("\nNo se pudo reconectar al WiFi");
+      return;
+    }
+  }
+
+  HTTPClient http;
+  http.begin(serverUrl);
+  http.addHeader("Content-Type", "application/json");
+
+  // Construir JSON que coincide con tu modelo SensorData
+  StaticJsonDocument<256> doc;
+  doc["nodeId"]        = data.id;
+  doc["temperature"]   = data.temperature;
+  doc["humidity"]      = data.humidity;
+  doc["pressure"]      = data.pressure;
+  doc["altitude"]      = data.altitude;
+  doc["extraVariable"] = data.extra_variable;
+  // timestamp lo asigna el servidor automáticamente si es null
+
+  String jsonBody;
+  serializeJson(doc, jsonBody);
+
+  Serial.print("Enviando JSON: ");
+  Serial.println(jsonBody);
+
+  int httpResponseCode = http.POST(jsonBody);
+
+  if (httpResponseCode > 0) {
+    String response = http.getString();
+    Serial.printf("Respuesta del servidor [%d]: %s\n", httpResponseCode, response.c_str());
+  } else {
+    Serial.printf("Error en POST: %s\n", http.errorToString(httpResponseCode).c_str());
+  }
+
+  http.end();
+}
+
+// ================== CALLBACK DE RECEPCIÓN ESP-NOW ==================
 void OnDataRecv(const esp_now_recv_info_t *info, const uint8_t *incomingData, int len) {
   char macStr[18];
-  
-  // AQUÍ ESTÁ EL CAMBIO: Usamos info->src_addr en lugar de mac_addr
   snprintf(macStr, sizeof(macStr), "%02x:%02x:%02x:%02x:%02x:%02x",
-           info->src_addr[0], info->src_addr[1], info->src_addr[2], 
+           info->src_addr[0], info->src_addr[1], info->src_addr[2],
            info->src_addr[3], info->src_addr[4], info->src_addr[5]);
-           
-  Serial.print("Paquete recibido de: ");
+
+  Serial.print("\nPaquete recibido de: ");
   Serial.println(macStr);
 
   struct_message receivedData;
   memcpy(&receivedData, incomingData, sizeof(receivedData));
 
-  Serial.printf("ID del dispositivo: %d\n", receivedData.id);
-  Serial.printf("Tamaño del paquete: %d bytes\n", len);
-
-  // Validar que el ID esté dentro del rango permitido
   if (receivedData.id >= 1 && receivedData.id <= MAX_DEVICES) {
-    // Almacenar los datos en la posición correspondiente (id-1)
     devicesData[receivedData.id - 1] = receivedData;
 
-    // Mostrar los datos recibidos
-    Serial.printf("Temperatura: %.2f °C\n", devicesData[receivedData.id - 1].temperature);
-    Serial.printf("Humedad: %.2f %%\n", devicesData[receivedData.id - 1].humidity);
-    Serial.printf("Presión: %.2f hPa\n", devicesData[receivedData.id - 1].pressure);
-    Serial.printf("Altitud: %.2f m\n", devicesData[receivedData.id - 1].altitude);
-    Serial.printf("Variable extra: %.2f\n", devicesData[receivedData.id - 1].extra_variable);
-    Serial.println("-----------------------------------");
+    Serial.printf("ID: %d | Temp: %.2f°C | Hum: %.2f%% | Pres: %.2f hPa | Alt: %.2f m\n",
+                  receivedData.id, receivedData.temperature, receivedData.humidity,
+                  receivedData.pressure, receivedData.altitude);
+
+    // Enviar inmediatamente al servidor
+    sendToServer(devicesData[receivedData.id - 1]);
+
   } else {
     Serial.println("ERROR: ID del dispositivo fuera de rango");
   }
@@ -53,51 +103,50 @@ void OnDataRecv(const esp_now_recv_info_t *info, const uint8_t *incomingData, in
 // ================== SETUP ==================
 void setup() {
   Serial.begin(115200);
-  Serial.println("\nIniciando Receptor ESP-NOW (escalable)");
+  Serial.println("\nIniciando Receptor ESP-NOW + HTTP");
 
-  // Configurar como estación Wi-Fi
+  // Conectar a WiFi
   WiFi.mode(WIFI_STA);
+  WiFi.begin(ssid, password);
+  Serial.print("Conectando a WiFi");
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("\nWiFi conectado!");
+  Serial.print("IP: ");
+  Serial.println(WiFi.localIP());
 
   // Inicializar ESP-NOW
   if (esp_now_init() != ESP_OK) {
     Serial.println("Error al inicializar ESP-NOW");
     return;
   }
-
-  // Registrar la función callback para cuando lleguen datos
   esp_now_register_recv_cb(OnDataRecv);
 
-  // Inicializar el array de dispositivos con valores por defecto
+  // Inicializar array
   for (int i = 0; i < MAX_DEVICES; i++) {
-    devicesData[i].id = 0;               // 0 indica que no hay datos válidos aún
-    devicesData[i].temperature = 0;
-    devicesData[i].humidity = 0;
-    devicesData[i].pressure = 0;
-    devicesData[i].altitude = 0;
-    devicesData[i].extra_variable = 0;
+    devicesData[i].id = 0;
   }
 
-  Serial.printf("Receptor listo. Esperando datos de hasta %d dispositivos...\n", MAX_DEVICES);
+  Serial.printf("Listo. Esperando datos de hasta %d dispositivos...\n", MAX_DEVICES);
 }
 
 // ================== LOOP ==================
 void loop() {
-  // Aquí puedes acceder a los datos de cada dispositivo en cualquier momento.
-  // Ejemplo: imprimir cada 5 segundos los valores del dispositivo 1 y 2.
   static unsigned long lastPrint = 0;
-  if (millis() - lastPrint > 5000) {
+  if (millis() - lastPrint > 30000) {  // Resumen cada 30 segundos
     lastPrint = millis();
-    Serial.println("\n=== Resumen de últimos datos recibidos ===");
+    Serial.println("\n=== Resumen ===");
     for (int i = 0; i < MAX_DEVICES; i++) {
-      if (devicesData[i].id != 0) {  // Si se ha recibido al menos un paquete de este dispositivo
-        Serial.printf("Dispositivo ID %d:\n", devicesData[i].id);
-        Serial.printf("  Temp: %.2f °C, Hum: %.2f %%, Pres: %.2f hPa, Alt: %.2f m\n",
-                      devicesData[i].temperature, devicesData[i].humidity,
-                      devicesData[i].pressure, devicesData[i].altitude);
+      if (devicesData[i].id != 0) {
+        Serial.printf("Nodo %d: Temp=%.2f°C Hum=%.2f%%\n",
+                      devicesData[i].id,
+                      devicesData[i].temperature,
+                      devicesData[i].humidity);
       }
     }
-    Serial.println("=========================================\n");
+    Serial.println("===============\n");
   }
-
-  delay(60000);  // Pequeña pausa para no saturar el procesador
+  delay(10);  // Sin delay largo para no bloquear ESP-NOW
 }
