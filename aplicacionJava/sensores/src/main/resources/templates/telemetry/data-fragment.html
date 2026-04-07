@@ -1,0 +1,19 @@
+<div th:fragment="recentData">
+    <h3>Últimas 10 lecturas del Nodo <span th:text="${nodeId}"></span></h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Fecha/Hora</th>
+                <th>Temp (°C)</th>
+                <th>Hum (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="d : ${data}">
+                <td th:text="${#temporals.format(d.timestamp, 'dd/MM/yyyy HH:mm:ss')}"></td>
+                <td th:text="${d.temperature}"></td>
+                <td th:text="${d.humidity}"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

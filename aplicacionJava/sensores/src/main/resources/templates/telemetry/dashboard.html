@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard de Sensores</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        canvas { max-width: 800px; margin: 20px auto; display: block; }
+        select, button { margin: 10px; padding: 8px; }
+    </style>
+</head>
+<body>
+    <h1>Datos de Sensores</h1>
+    <div>
+        <label>Selecciona nodo: </label>
+        <select id="nodeSelect">
+            <option th:each="node : ${nodes}" th:value="${node}" th:text="${node}"></option>
+        </select>
+        <button onclick="loadData()">Cargar gráfica</button>
+    </div>
+    <canvas id="sensorChart" width="800" height="400"></canvas>
+
+    <script>
+        let chart;
+
+        function loadData() {
+            const nodeId = document.getElementById('nodeSelect').value;
+            if (!nodeId) return;
+
+            fetch(`/api/rest/telemetry/last10/${nodeId}`)  // implementar endpoint REST
+                .then(response => response.json())
+                .then(data => {
+                    const labels = data.map(d => d.timestamp);
+                    const temps = data.map(d => d.temperature);
+                    const hums = data.map(d => d.humidity);
+                    if (chart) chart.destroy();
+                    const ctx = document.getElementById('sensorChart').getContext('2d');
+                    chart = new Chart(ctx, {
+                        type: 'line',
+                        data: {
+                            labels: labels,
+                            datasets: [
+                                { label: 'Temperatura (°C)', data: temps, borderColor: 'red', fill: false },
+                                { label: 'Humedad (%)', data: hums, borderColor: 'blue', fill: false }
+                            ]
+                        },
+                        options: { responsive: true, scales: { y: { beginAtZero: true } } }
+                    });
+                });
+        }
+    </script>
+</body>
+</html>
