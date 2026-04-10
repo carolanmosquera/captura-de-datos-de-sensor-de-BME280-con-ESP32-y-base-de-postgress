@@ -2,13 +2,16 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
+#include <WiFiClientSecure.h>
 
 // ================== CONFIGURACIÓN DE RED ==================
-const char* ssid     = "TU_WIFI_SSID";
-const char* password = "TU_WIFI_PASSWORD";
+const char* ssid     = "PUBLICA"; 
+const char* password = "";
 
 // URL de tu aplicación en Render
-const char* serverUrl = "https://TU-APP.onrender.com/api/rest/telemetry";
+//probar local :  "http://172.30.XXX.XXX:8080/api/rest/telemetry";
+//probra nube render : "https://captura-de-datos-de-sensor-de-bme280-con.onrender.com/api/rest/telemetry"
+const char* serverUrl = "http://172.30.179.105:8080/api/rest/telemetry";
 
 // ================== ESTRUCTURA DE DATOS ==================
 typedef struct struct_message {
@@ -40,11 +43,21 @@ void sendToServer(struct_message& data) {
     }
   }
 
-  HTTPClient http;
-  http.begin(serverUrl);
-  http.addHeader("Content-Type", "application/json");
+  // --- EL TRUCO PARA HTTPS ESTÁ AQUÍ ---
+  WiFiClientSecure client;
+  client.setInsecure(); // Ignora la validación del certificado SSL para simplificar
 
-  // Construir JSON que coincide con tu modelo SensorData
+  HTTPClient http;
+  
+  // Pasamos el cliente seguro y la URL
+  http.begin(client, serverUrl); 
+  http.addHeader("Content-Type", "application/json");
+  
+  // Render (en su capa gratuita) puede tardar en despertar si estuvo inactivo.
+  // Le damos 15 segundos de tolerancia antes de que el ESP32 se rinda.
+  http.setTimeout(15000); 
+
+  // Construir JSON
   StaticJsonDocument<256> doc;
   doc["nodeId"]        = data.id;
   doc["temperature"]   = data.temperature;
@@ -52,7 +65,6 @@ void sendToServer(struct_message& data) {
   doc["pressure"]      = data.pressure;
   doc["altitude"]      = data.altitude;
   doc["extraVariable"] = data.extra_variable;
-  // timestamp lo asigna el servidor automáticamente si es null
 
   String jsonBody;
   serializeJson(doc, jsonBody);
@@ -116,6 +128,10 @@ void setup() {
   Serial.println("\nWiFi conectado!");
   Serial.print("IP: ");
   Serial.println(WiFi.localIP());
+  Serial.print("Canal WiFi: ");
+  Serial.println(WiFi.channel());
+  Serial.print("MAC Receptor: ");
+  Serial.println(WiFi.macAddress());
 
   // Inicializar ESP-NOW
   if (esp_now_init() != ESP_OK) {

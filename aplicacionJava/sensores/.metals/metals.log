@@ -2526,3 +2526,240 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequ
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.lang.Thread.run(Thread.java:1583)
 
+2026.04.07 17:31:53 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores' for client Visual Studio Code 1.114.0.
+2026.04.07 17:31:53 INFO  Memory monitor started
+2026.04.07 17:31:55 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.07 17:31:55 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+abr 07, 2026 5:31:56 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+abr 07, 2026 5:31:56 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2026.04.07 17:31:59 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.07 17:31:59 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\model\SensorData.java. Using fallback presentation compiler.
+2026.04.07 17:31:59 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\model\SensorData.java. Using fallback presentation compiler.
+abr 07, 2026 5:31:59 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2026.04.07 17:31:59 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\model\SensorData.java. Using fallback presentation compiler.
+2026.04.07 17:32:09 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\model\SensorData.java. Using fallback presentation compiler.
+abr 07, 2026 5:32:15 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.04.07 17:32:15 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\model\SensorData.java. Using fallback presentation compiler.
+abr 07, 2026 5:32:19 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.04.07 17:32:19 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\model\SensorData.java. Using fallback presentation compiler.
+2026.04.07 17:33:26 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\model\SensorData.java. Using fallback presentation compiler.
+2026.04.07 17:42:57 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\model\SensorData.java. Using fallback presentation compiler.
+2026.04.07 17:42:57 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.07 17:42:57 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+abr 07, 2026 5:42:57 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30
+2026.04.07 17:42:57 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.07 17:42:58 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.07 17:42:59 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.07 17:43:03 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.07 17:43:03 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.07 17:43:05 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.07 17:43:05 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.07 17:43:05 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.07 17:56:26 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.07 17:56:26 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.07 17:56:28 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.07 17:56:28 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.07 17:56:29 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.07 17:56:30 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.07 17:56:30 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.07 17:56:41 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.07 17:56:41 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.07 17:56:42 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.07 17:56:41 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.07 17:56:41 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.07 17:56:41 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.07 17:56:43 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.07 17:56:43 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.07 17:56:45 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.07 17:56:45 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.07 17:56:45 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.07 18:00:00 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.07 18:00:00 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.07 18:06:57 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.07 18:10:15 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.07 18:10:19 INFO  Shutting down server
+2026.04.07 18:10:19 INFO  Memory monitor stopped
+2026.04.07 18:10:19 INFO  shutting down Metals
+2026.04.07 18:10:19 INFO  Exiting server
+2026.04.07 18:10:19 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2026.04.08 11:01:56 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores' for client Visual Studio Code 1.114.0.
+2026.04.08 11:01:56 INFO  Memory monitor started
+2026.04.08 11:01:58 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.08 11:01:58 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.08 11:01:59 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+abr 08, 2026 11:01:59 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+abr 08, 2026 11:01:59 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+abr 08, 2026 11:01:59 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+abr 08, 2026 11:01:59 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2026.04.08 11:02:00 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.08 11:02:04 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.08 11:02:07 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.08 11:02:15 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.08 11:02:15 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.08 11:02:15 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.08 11:02:15 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+abr 08, 2026 11:02:15 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+abr 08, 2026 11:02:15 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+abr 08, 2026 11:02:15 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+2026.04.08 11:02:15 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.08 11:02:16 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.08 11:02:17 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.08 11:02:22 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.08 11:12:43 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\mvc\SensorMvcController.java. Using fallback presentation compiler.
+2026.04.08 11:29:50 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+abr 08, 2026 11:29:51 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+2026.04.08 11:29:51 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.08 11:29:51 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.08 11:29:51 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+abr 08, 2026 11:29:52 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+2026.04.08 11:29:51 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+abr 08, 2026 11:29:52 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 43
+2026.04.08 11:29:51 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.08 11:40:15 INFO  Shutting down server
+2026.04.08 11:40:15 INFO  Memory monitor stopped
+2026.04.08 11:40:15 INFO  shutting down Metals
+2026.04.08 11:40:15 INFO  Exiting server
+2026.04.08 11:40:15 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2026.04.08 12:53:35 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores' for client Visual Studio Code 1.114.0.
+2026.04.08 12:53:35 INFO  Memory monitor started
+2026.04.08 12:53:38 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.08 12:53:38 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.08 12:53:41 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.08 12:53:53 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.08 12:54:24 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.08 12:54:24 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.08 12:54:24 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.08 12:54:25 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+abr 08, 2026 12:54:25 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+abr 08, 2026 12:54:25 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+abr 08, 2026 12:54:25 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2026.04.08 12:54:25 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.08 12:54:26 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.08 12:54:31 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.08 12:54:47 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.08 12:54:49 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.08 12:57:51 WARN  no build target for: C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java
+2026.04.08 12:57:51 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.08 12:58:01 INFO  Shutting down server
+2026.04.08 12:58:01 INFO  Memory monitor stopped
+2026.04.08 12:58:01 INFO  shutting down Metals
+2026.04.08 12:58:01 INFO  Exiting server
+2026.04.10 09:06:24 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores' for client Visual Studio Code 1.115.0.
+2026.04.10 09:06:24 INFO  Memory monitor started
+2026.04.10 09:06:30 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.10 09:06:30 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:06:33 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:06:42 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:07:17 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:07:17 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:07:17 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:07:18 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+abr 10, 2026 9:07:18 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+abr 10, 2026 9:07:18 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+abr 10, 2026 9:07:18 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+2026.04.10 09:07:18 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:07:18 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:07:26 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:07:47 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:07:48 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:11:52 WARN  no build target for: C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java
+2026.04.10 09:11:52 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:11:54 INFO  Shutting down server
+2026.04.10 09:11:54 INFO  Memory monitor stopped
+2026.04.10 09:11:54 INFO  shutting down Metals
+2026.04.10 09:11:54 INFO  Exiting server
+2026.04.10 09:11:54 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2026.04.10 09:35:14 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores' for client Visual Studio Code 1.115.0.
+2026.04.10 09:35:14 INFO  Memory monitor started
+2026.04.10 09:35:15 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.10 09:35:15 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:35:16 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:35:33 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:37:32 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:37:32 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:37:32 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:37:32 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+abr 10, 2026 9:37:32 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+abr 10, 2026 9:37:33 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+2026.04.10 09:37:33 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:37:33 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:37:35 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:37:40 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:37:40 INFO  no build target found for C:\Users\carol\Desktop\PROYETOS\PROYECTO_SENSORES_FABRICA\captura-de-datos-de-sensor-de-BME280-con-ESP32-y-base-de-postgress\aplicacionJava\sensores\src\main\java\com\example\sensores\controller\rest\SensorRestController.java. Using fallback presentation compiler.
+2026.04.10 09:42:04 INFO  Shutting down server
+2026.04.10 09:42:04 INFO  Memory monitor stopped
+2026.04.10 09:42:04 INFO  shutting down Metals
+2026.04.10 09:42:04 INFO  Exiting server
+2026.04.10 09:42:04 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
