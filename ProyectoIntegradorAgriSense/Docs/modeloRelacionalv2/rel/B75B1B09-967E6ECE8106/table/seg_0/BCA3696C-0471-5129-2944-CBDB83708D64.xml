@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCA3696C-0471-5129-2944-CBDB83708D64" name="USER">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>C6DE4DAF-EAC6-CD72-D368-2B7634B08F1F</importedID>
+<ordsAlias>users</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0A32D55E-F777-FCAB-B309-3420D2F20B6C">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>5F60D146-9099-5342-0FB1-359EA472E537</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="B7ACC57B-1496-592C-FFDA-FA77F266DAB5">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>F3CB3B89-6A90-B8B9-9A5E-23DA5EFA9782</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>082AE444-D5D8-BC62-EDA7-3CD92880A9E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="FF210324-919D-4011-4E86-412D00A68CEA">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>84F7C7DC-C4BD-B1AD-4E1C-A4246B6AB346</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EC7B9886-AF00-CA89-6D40-5C87FDE7A6C4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password_hash" id="9C3337C0-D58A-AB55-E9C6-2758D4387276">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>7F5B11A3-9818-6C9F-F034-37A82BC514C6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8B3833D6-196C-6F98-5B53-21DF19A36165</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="05573941-A89B-44F2-492A-92C59DE76207">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>BDE40BBC-C21B-F05D-2D8E-94537A495F33</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>06D53658-295A-3223-E575-B23A04D1A3B4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="4E043E20-0A15-A351-0EBD-80D6EAE57EAB">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>F401DCF3-78C1-B5A5-2F28-E1985AAAF3C7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>06D53658-295A-3223-E575-B23A04D1A3B4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2E947E2-0A17-60A3-85E2-F238F30FA29D" name="USERS_PK">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>C67E8ADF-B78C-5627-AD2C-493845200A99</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A32D55E-F777-FCAB-B309-3420D2F20B6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11108BF1-69E7-9BDB-95E1-BC3F8C8B2143" name="INDEX_1v1">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>92C123EC-A4FD-FF20-97BD-C2BC4B21405A</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF210324-919D-4011-4E86-412D00A68CEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="chk_users_status" directorySegmentName="seg_0" id="9D885E5B-454E-FADA-FA93-408DCE33130A">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>Diagrama_AgriSense</ownerDesignName>
+<importedID>17D6A31F-7A89-FA9F-5FA6-8856BA5A26A8</importedID>
+<rule><![CDATA[status IN ('ACTIVE', 'INACTIVE')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

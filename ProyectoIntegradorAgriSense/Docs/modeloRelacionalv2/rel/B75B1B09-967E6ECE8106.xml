@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="B75B1B09-41EC-4D4F-DD7C-967E6ECE8106" mainViewID="CE161A22-69FE-6879-9858-C57454450273">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:05 UTC</createdTime>
+<ownerDesignName>Diagrama_AgriSense</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Parcial.sql</fileName>
+<pathName>C:\Users\jhonh\Downloads</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

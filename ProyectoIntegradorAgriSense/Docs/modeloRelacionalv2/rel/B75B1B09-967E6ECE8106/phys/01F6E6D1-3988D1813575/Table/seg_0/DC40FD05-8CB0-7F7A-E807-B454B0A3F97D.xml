@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="PROPERTY" directorySegmentName="seg_0" id="DC40FD05-8CB0-7F7A-E807-B454B0A3F97D">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="area_hectares" id="36B4A886-551D-3701-829E-C2FF150EFFDF">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="owner_id" id="3872AFBD-1C4D-83D3-53AA-7E29968FCE29">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="63B03406-8FB3-4EC0-D395-2C7716AFBD91">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="property_type_id" id="A838BA73-34D7-3849-6D76-505A4416FCEC">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="name" id="EA7C34EA-3A6A-2541-921B-608AB8F8C557">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="location_id" id="FFD6347A-8D2F-2A94-7C3C-E7FE2A42662F">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_property_user" id="0C4BD320-2203-7C12-1F0B-58501CF89E3A">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_property_type" id="38FF9965-7B2E-4CC8-217E-2459B682F9F4">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_property_location" id="CE2C3D38-A259-EE64-1661-8B3DE67E1731">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PROPERTY_PK" id="811FF4A1-4AF7-7059-D03E-EDA488FC4F28">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

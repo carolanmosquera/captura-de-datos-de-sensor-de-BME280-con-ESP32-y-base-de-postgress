@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="75D614B8-6986-B76F-935F-5FC4E6142012" containerWithKeyObject="09450D92-6A1F-AC2D-F329-0A13635F22A9" localFKIndex="1B868F0E-2E52-0C7D-CF78-4C4CCE95C3D9" name="fk_data_sensor">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>4E503717-CE3F-A673-EB37-CF8175B3170B</importedID>
+<referredTableLongName>SENSOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8F7652FF-8646-D052-D609-30CC1CB1DA41</referredTableID>
+<keyObject>FCB5FD80-5713-AF75-8A00-955B97CBCE9C</keyObject>
+<referredKeyID>FCB5FD80-5713-AF75-8A00-955B97CBCE9C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

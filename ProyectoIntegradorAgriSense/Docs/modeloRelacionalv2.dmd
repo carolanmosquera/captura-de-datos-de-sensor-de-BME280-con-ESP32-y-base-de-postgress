@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modeloRelacionalv2" id="D0EFFA39-9CD0-9BBA-3A7A-F7F52EE1A1BD" version="3.5">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:01 UTC</createdTime>
+<ownerDesignName>Diagrama_AgriSense</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D0EFFA39-9CD0-9BBA-3A7A-F7F52EE1A1BD</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="8101D394-68A0-F631-3C37-C3BC30635246">
+<designStoragePath>C:\Parcial</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

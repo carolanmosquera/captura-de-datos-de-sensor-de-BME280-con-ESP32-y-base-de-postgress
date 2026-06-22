@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D275AF75-1C51-D873-A476-2B2B5A2ED63C" name="ROLE">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>F8B49632-D5EF-46E1-18C7-5750794B273D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5242C07E-4023-1CF6-26AC-F1D317D9419A">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>66B3DAB3-0730-5A58-B9E0-AFB28AA773B0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="E83B4559-244A-78FD-D206-EDBE76F701ED">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>C14AE3B9-2F98-27EB-BC98-F3AD5FDB5B60</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CD7A948A-DF7F-F496-04A0-0C48ED0822B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="FC8F6137-0275-438B-F43A-26B7B0558594">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>2AE1FC19-88C3-2032-B194-4C2B3D82A9CA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F1FF8C2-1A2D-928C-D9F2-38B3DA440B56</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_id" id="83699CDF-214B-4584-C28A-55BACE1E350B">
+<createdBy>carol</createdBy>
+<createdTime>2026-04-29 16:19:12 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5B6AEB0-DFAC-911D-9B89-677FD00BED8F" referredColumn="0A32D55E-F777-FCAB-B309-3420D2F20B6C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5DBE91C9-37FB-6CE1-B887-FA781FFF5054" name="ROLE_PK">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>0F227590-7275-4AD0-EE25-8B655242A0E0</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5242C07E-4023-1CF6-26AC-F1D317D9419A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A852E7B-8304-8632-994E-E398D4E3FBC0" name="ROLE_USER_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-04-29 16:19:12 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83699CDF-214B-4584-C28A-55BACE1E350B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

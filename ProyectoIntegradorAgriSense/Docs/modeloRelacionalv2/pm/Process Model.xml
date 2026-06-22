@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="06DD6171-0616-DB46-3BEE-99740B8857EB">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:01 UTC</createdTime>
+<ownerDesignName>Diagrama_AgriSense</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

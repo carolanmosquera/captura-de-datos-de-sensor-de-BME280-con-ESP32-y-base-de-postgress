@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="BD86A4AE-ED31-B08F-5373-B28B2C909890" mainViewID="59DB290F-44B7-A9A8-3C63-A1F603FDEC24">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:01 UTC</createdTime>
+<ownerDesignName>Diagrama_AgriSense</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

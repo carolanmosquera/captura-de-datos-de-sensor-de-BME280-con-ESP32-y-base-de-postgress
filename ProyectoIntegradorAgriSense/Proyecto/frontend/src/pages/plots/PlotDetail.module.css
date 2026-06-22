@@ -1,0 +1,83 @@
+.container { padding: 24px; max-width: 1200px; margin: 0 auto; }
+.backBtn { background: none; border: none; color: var(--color-primary-400); cursor: pointer; margin-bottom: 20px; }
+.header { margin-bottom: 32px; }
+.title { font-size: 28px; font-weight: bold; }
+.subtitle { color: var(--color-text-secondary); }
+.metricsGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 32px; }
+.tableSection { margin-bottom: 32px; }
+.tableContainer { overflow-x: auto; }
+.averagesTable { width: 100%; border-collapse: collapse; background: var(--color-surface); }
+.averagesTable th, .averagesTable td { border: 1px solid var(--color-border); padding: 10px; text-align: left; }
+.slavesSection { margin-top: 20px; }
+.slavesList { display: flex; flex-direction: column; gap: 12px; }
+.slaveCard { display: flex; justify-content: space-between; align-items: center; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 8px; padding: 12px; }
+.slaveInfo { display: flex; gap: 16px; }
+.viewBtn { background: var(--color-primary-600); color: white; border: none; border-radius: 6px; padding: 6px 12px; cursor: pointer; }
+.emptyState { color: var(--color-text-secondary); padding: 20px; text-align: center; }
+
+.editConditionBtn {
+  background-color: #f59e0b;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+/* Botón Agregar condición */
+.addConditionBtn {
+  background: linear-gradient(135deg, #10b981, #059669);
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 1.5rem;
+}
+
+.addConditionBtn:hover {
+  background: linear-gradient(135deg, #059669, #047857);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.addConditionBtn:active {
+  transform: translateY(1px);
+}
+
+/* Botón Editar condición (puedes usar el mismo estilo o variación) */
+.editConditionBtn {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 1.5rem;
+}
+
+.editConditionBtn:hover {
+  background: linear-gradient(135deg, #d97706, #b45309);
+  transform: translateY(-1px);
+}
+
+
+
+
+

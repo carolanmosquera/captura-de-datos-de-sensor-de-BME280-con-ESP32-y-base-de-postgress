@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BE4F34A-421E-A643-9322-DFB8CAE98DB2" name="ESP32SLAVE">
+<createdBy>carol</createdBy>
+<createdTime>2026-04-29 15:15:57 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0BC80E0B-2D1C-2D4D-0EF4-597A4EB79445">
+<createdBy>carol</createdBy>
+<createdTime>2026-04-29 15:53:18 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nodeStatus" id="E0EB2785-D1FD-1F69-6E7A-F2B21D72C833">
+<createdBy>carol</createdBy>
+<createdTime>2026-04-29 15:53:18 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sensorStatus" id="DC084FCE-3C64-9A6F-8FCD-F8BE38FF6C7F">
+<createdBy>carol</createdBy>
+<createdTime>2026-04-29 16:08:54 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lastSeen" id="618F2263-BC81-2069-1550-9B0E33D97157">
+<createdBy>carol</createdBy>
+<createdTime>2026-04-29 16:08:54 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="installationDate" id="1F147A38-454E-287A-BFE8-C55DEA5AD18D">
+<createdBy>carol</createdBy>
+<createdTime>2026-04-29 16:08:54 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="esp32master_id" id="EF531F94-475E-0D12-F800-BDF666313CFC">
+<createdBy>carol</createdBy>
+<createdTime>2026-04-29 16:08:59 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="735A96F3-97DC-FCE1-9932-8D24281C9D65" referredColumn="63D5548D-5EC5-B0EE-1CFB-1C121B5A1C0B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="036A826F-7881-8618-CE9B-7726216FB0FE" name="ESP32SLAVE_PK">
+<createdBy>carol</createdBy>
+<createdTime>2026-04-29 16:09:14 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BC80E0B-2D1C-2D4D-0EF4-597A4EB79445"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88E1FC35-F107-3E98-1530-F6479014982B" name="ESP32SLAVE_ESP32MASTER_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-04-29 16:08:59 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF531F94-475E-0D12-F800-BDF666313CFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

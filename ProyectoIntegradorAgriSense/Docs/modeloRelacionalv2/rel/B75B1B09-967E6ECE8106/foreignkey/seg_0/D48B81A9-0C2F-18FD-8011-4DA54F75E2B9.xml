@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D48B81A9-0C2F-18FD-8011-4DA54F75E2B9" containerWithKeyObject="92213971-B8E2-DAB2-AF05-DECE0B0000D1" localFKIndex="B291E773-7715-8541-0A20-6C40D5244A1B" name="fk_stage_history_plot">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>4242995E-2734-5806-9428-AFA4E4E67BDB</importedID>
+<referredTableLongName>PLOT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EB1FB545-3E70-059C-7DB7-EC15AC9AA805</referredTableID>
+<keyObject>32BFA93B-1B06-DECD-E738-F7075ABF6FD7</keyObject>
+<referredKeyID>32BFA93B-1B06-DECD-E738-F7075ABF6FD7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

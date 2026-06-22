@@ -1,0 +1,83 @@
+# =========================
+# Sistema operativo
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Editores / IDE
+# =========================
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# =========================
+# Java / Spring Boot / Maven
+# =========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven local
+.m2/
+
+# Logs
+*.log
+logs/
+
+# =========================
+# Frontend / Node / Vite
+# =========================
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+.metals/
+
+# =========================
+# Variables de entorno
+# =========================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# =========================
+# Docker
+# =========================
+.docker/
+docker-compose.override.yml
+
+# =========================
+# Mosquitto / MQTT
+# =========================
+mosquitto/data/
+mosquitto/log/
+mosquitto/*.db
+mosquitto/passwords
+mosquitto/passwd
+
+# =========================
+# Archivos temporales
+# =========================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# =========================
+# Carpetas generadas
+# =========================
+backend/target/
+Backend/target/
+frontend/node_modules/
+frontend/dist/

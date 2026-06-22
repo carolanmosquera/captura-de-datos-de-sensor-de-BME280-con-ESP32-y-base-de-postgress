@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E855882-0D62-CA51-71EA-59239A0B1C3A" name="CROP_CONDITION">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>B8BD3E70-BBFC-DC59-6289-1D3FD363AB05</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7F84C3BC-D05C-C456-34AA-85F274447785">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>FC5A4E0B-F727-3394-CC0A-9FC807715A62</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="crop_id" id="60043423-33C4-547C-4460-8DF73CEA50DA">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>9711F4D3-282F-A16B-758B-2D4682254F88</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B362DEE9-D6B7-73F4-7E8E-33BA5C06DCEA" referredColumn="7E1D20FF-6712-4917-CE13-DD1ECA52F25A"/>
+</associations>
+</Column>
+<Column name="min_temperature" id="4218AEBC-8F8B-5199-56C6-71852E6A2292">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>F5D2A3AC-6B77-3557-E699-CBC7DD05706D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="max_temperature" id="5BA4B21B-74C8-1BB3-F55D-F57ECEA2EC8D">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>918A1EBD-8BC7-6C43-3804-D63246F3DA81</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="min_humidity" id="2A643588-7EAB-9D04-E97E-C61AD3DBD1AB">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>C33647DD-73D3-7D4D-6AAB-002223399F65</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="max_humidity" id="26491EE3-6116-4356-C993-7E61ACE26335">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>66AA92C9-74FF-7221-6CC5-5E8330ED9178</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stage_id" id="34F1D50B-51E6-5FBF-50EF-5416F58A7791">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>2F02F1EF-C5CF-82FD-5411-4B067706AF42</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0423386-BCF0-A5F3-576C-9BC7E82C92E1" referredColumn="08C33C78-90A8-DDCB-BC20-8316A296924E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27746981-5FFB-0BAC-9B3D-CC016D5ECFA4" name="CROP_CONDITION_PK">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>D782E8FA-6D02-48D2-399B-A656F730CCB6</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F84C3BC-D05C-C456-34AA-85F274447785"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E98A07F-D0D3-855A-5E17-C3D27A732FEE" name="CROP_CONDITION_ID_CROP_IDX">
+<createdBy>carol</createdBy>
+<createdTime>2026-04-29 15:14:24 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60043423-33C4-547C-4460-8DF73CEA50DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFFF866D-2A47-7533-CB72-C1C46863E749" name="fk_crop_condition_crop">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60043423-33C4-547C-4460-8DF73CEA50DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="817E086F-B7A5-AE22-59C4-86BFB597BCA6" name="fk_crop_condition_stage">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34F1D50B-51E6-5FBF-50EF-5416F58A7791"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

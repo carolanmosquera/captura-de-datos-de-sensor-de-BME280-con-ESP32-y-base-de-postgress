@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB1FB545-3E70-059C-7DB7-EC15AC9AA805" name="PLOT">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>106A27A6-70A0-C2BE-B4F8-5454067DC897</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B5EBF776-B81D-7B60-F95A-1B4DE9A181EF">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>29A1768E-48AE-8866-E1AE-E194AD89847B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="2FC1C8C7-0D3C-AA30-8457-19F3A68E7632">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>831DC7E5-51C7-8C13-9787-E624D52B1D52</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>082AE444-D5D8-BC62-EDA7-3CD92880A9E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="area" id="3E44259D-E634-19DC-B765-0640EF635E76">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>E945271A-ED4D-109B-CEEC-5D3FA845A27A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="property_id" id="942F13D7-67B0-DC3A-43CB-889957E5D47B">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>405F291E-1385-2FE9-BB3B-8AA1333955E9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3A8B979-51AA-9391-02F7-5FC245C3D2DE" referredColumn="63B03406-8FB3-4EC0-D395-2C7716AFBD91"/>
+</associations>
+</Column>
+<Column name="crop_id" id="029CF6D3-E785-C1CB-CCD9-DA051EE53C49">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>BB61B639-EB89-3C0B-215A-B14D8B6F5601</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="343D0BD5-AD0B-B36F-509F-6506606F70A4" referredColumn="7E1D20FF-6712-4917-CE13-DD1ECA52F25A"/>
+</associations>
+</Column>
+<Column name="location_id" id="E484C96F-4B5A-5C1A-AFEB-B045B992A8C1">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>152EF593-2A8C-78B8-E869-CB2CD7655CDA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93E10B14-01B1-4341-903B-EEEE2C33C6A9" referredColumn="F9A73CFF-A3D2-1133-B976-8681090DDF06"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32BFA93B-1B06-DECD-E738-F7075ABF6FD7" name="PLOT_PK">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>D90550D0-4441-E9A1-23B7-89E4FF797099</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5EBF776-B81D-7B60-F95A-1B4DE9A181EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5E0D551-4D19-9D19-753C-72C370A27DA4" name="fk_plot_crop">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="029CF6D3-E785-C1CB-CCD9-DA051EE53C49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="748B55CF-4D1F-002D-61E0-F1662C9541B1" name="fk_plot_location">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E484C96F-4B5A-5C1A-AFEB-B045B992A8C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F30AA559-5C3D-4BC2-CE62-A70F75FC57C9" name="fk_plot_property">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="942F13D7-67B0-DC3A-43CB-889957E5D47B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2DE14DED-EA07-FA4F-413E-FC4FB0339F51" containerWithKeyObject="92213971-B8E2-DAB2-AF05-DECE0B0000D1" localFKIndex="018AF0B4-7289-2F50-CBEC-9D8320EBE47A" name="fk_stage_history_stage">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>804C041A-D5A2-B42A-8B19-E49877756A83</importedID>
+<referredTableLongName>PHENOLOGICAL_STAGE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4A2BA83D-5FEF-F092-2458-956A95DE561C</referredTableID>
+<keyObject>C5897A26-5A15-7C7E-5AF6-C19124ED49C7</keyObject>
+<referredKeyID>C5897A26-5A15-7C7E-5AF6-C19124ED49C7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

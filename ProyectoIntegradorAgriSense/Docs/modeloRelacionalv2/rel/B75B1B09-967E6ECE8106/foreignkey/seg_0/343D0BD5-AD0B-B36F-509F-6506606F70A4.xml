@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="343D0BD5-AD0B-B36F-509F-6506606F70A4" containerWithKeyObject="EB1FB545-3E70-059C-7DB7-EC15AC9AA805" localFKIndex="B5E0D551-4D19-9D19-753C-72C370A27DA4" name="fk_plot_crop">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>478244AF-6A29-4DB2-6BCF-546D874D7BA1</importedID>
+<referredTableLongName>CROP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>78CFC3D1-CEAC-9CD2-A087-7CF8E03B5FDD</referredTableID>
+<keyObject>F8E099EE-BCF9-A415-D7B6-2FFD627B8B2B</keyObject>
+<referredKeyID>F8E099EE-BCF9-A415-D7B6-2FFD627B8B2B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

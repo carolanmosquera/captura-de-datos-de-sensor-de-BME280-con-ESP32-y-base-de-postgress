@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1FE1BDE4-10D4-098D-5ABC-3EBD86A15806" containerWithKeyObject="E87E8FAC-F18B-4203-3580-E04611D510D9" localFKIndex="4FD55AE0-DFBC-22C1-F0DE-ABB8C5C7255B" name="ESP32MASTER_CROP_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-04-29 15:15:04 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<referredTableLongName>CROP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>78CFC3D1-CEAC-9CD2-A087-7CF8E03B5FDD</referredTableID>
+<keyObject>F8E099EE-BCF9-A415-D7B6-2FFD627B8B2B</keyObject>
+<referredKeyID>F8E099EE-BCF9-A415-D7B6-2FFD627B8B2B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

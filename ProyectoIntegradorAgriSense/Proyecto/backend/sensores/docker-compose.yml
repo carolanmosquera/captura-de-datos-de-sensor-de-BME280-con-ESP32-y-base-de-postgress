@@ -1,0 +1,91 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: sensores-postgres-local
+    environment:
+      POSTGRES_DB: sensoresdb
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin -d sensoresdb"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: sensores-pgadmin
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin123
+    ports:
+      - "8888:80"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - app-network
+
+  api:
+    build: .
+    container_name: sensores-api
+    ports:
+      - "8081:8080"
+    environment:
+      # Le decimos a la app que use el puerto 8080 dentro del contenedor
+      SERVER_PORT: 8080
+
+      # -------- OPCIÓN 1: Usar PostgreSQL local (Docker) --------
+      #DB_URL: jdbc:postgresql://db:5432/sensoresdb
+      #DB_USERNAME: admin
+      #DB_PASSWORD: admin123
+
+      # -------- OPCIÓN 2: Usar Neon (nube) --------
+      # Descomenta estas 3 líneas y comenta las de arriba
+      DB_URL: jdbc:postgresql://ep-young-shape-anp1opq3-pooler.c-6.us-east-1.aws.neon.tech/neondb?sslmode=require
+      DB_USERNAME: neondb_owner
+      DB_PASSWORD: npg_WGAm3Jgv1OaH
+
+      #MQTT:
+      MQTT_BROKER_URL: tcp://mosquitto:1883
+      MQTT_CLIENT_ID: spring-boot-sensores
+      MQTT_COMMAND_TOPIC: sensores/commands
+
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - app-network
+
+  # Agregar al docker-compose.yml mosquito para mqqt
+  mosquitto:
+    image: eclipse-mosquitto:2
+    container_name: sensores-mosquitto
+    ports:
+      - "1883:1883"   # MQTT
+      - "9001:9001"   # WebSocket (para el frontend si lo necesitas)
+    volumes:
+      - mosquitto_data:/mosquitto/data
+      - mosquitto_log:/mosquitto/log
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  pgadmin_data:
+  mosquitto_data:    
+  mosquitto_log:     

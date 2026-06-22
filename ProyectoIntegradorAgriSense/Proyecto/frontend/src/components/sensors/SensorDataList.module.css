@@ -1,0 +1,153 @@
+.container {
+  margin-top: var(--space-8);
+  padding: var(--space-6);
+  background-color: var(--color-bg-surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  border: 1px solid var(--color-border);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-6);
+}
+
+.header h2 {
+  color: var(--color-text-primary);
+  font-size: var(--text-2xl);
+  margin: 0;
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+  padding: var(--space-4);
+  background-color: var(--color-bg-elevated);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+}
+
+.filterGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.filterGroup label {
+  font-size: var(--text-xs);
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.input, .select {
+  background-color: var(--color-bg-base);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-primary);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-sm);
+  font-size: var(--text-sm);
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.input:focus, .select:focus {
+  border-color: var(--color-primary-500);
+}
+
+.tableContainer {
+  overflow-x: auto;
+  margin-bottom: var(--space-6);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table th {
+  padding: var(--space-4);
+  background-color: var(--color-bg-elevated);
+  color: var(--color-primary-400);
+  font-weight: 600;
+  font-size: var(--text-sm);
+  border-bottom: 2px solid var(--color-border);
+}
+
+.table td {
+  padding: var(--space-4);
+  color: var(--color-text-primary);
+  font-size: var(--text-sm);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.table tr:hover {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.paginationInfo {
+  color: var(--color-text-secondary);
+  font-size: var(--text-sm);
+}
+
+.paginationControls {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.button {
+  background-color: var(--color-primary-600);
+  color: white;
+  border: none;
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-sm);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.button:hover:not(:disabled) {
+  background-color: var(--color-primary-500);
+}
+
+.button:disabled {
+  background-color: var(--color-bg-elevated);
+  color: var(--color-text-muted);
+  cursor: not-allowed;
+}
+
+.buttonOutline {
+  background-color: transparent;
+  border: 1px solid var(--color-primary-600);
+  color: var(--color-primary-400);
+}
+
+.buttonOutline:hover:not(:disabled) {
+  background-color: rgba(34, 197, 94, 0.1);
+}
+
+.loading, .error, .empty {
+  padding: var(--space-10);
+  text-align: center;
+  color: var(--color-text-secondary);
+}
+
+.error {
+  color: var(--color-danger-500);
+}

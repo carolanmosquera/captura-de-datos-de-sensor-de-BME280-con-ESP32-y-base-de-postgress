@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B362DEE9-D6B7-73F4-7E8E-33BA5C06DCEA" containerWithKeyObject="8E855882-0D62-CA51-71EA-59239A0B1C3A" localFKIndex="EFFF866D-2A47-7533-CB72-C1C46863E749" name="fk_crop_condition_crop">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>31B1B24B-1D96-F51B-032E-7445C642C5A8</importedID>
+<referredTableLongName>CROP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>78CFC3D1-CEAC-9CD2-A087-7CF8E03B5FDD</referredTableID>
+<keyObject>F8E099EE-BCF9-A415-D7B6-2FFD627B8B2B</keyObject>
+<referredKeyID>F8E099EE-BCF9-A415-D7B6-2FFD627B8B2B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

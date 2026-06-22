@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A49A7CF-B7E1-A43C-0C97-B8667610C256" name="ALERT">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>462D74E9-43BC-7561-E435-326FA463EC4F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0FFA4141-5324-C1AE-FE5D-D924ECC04C84">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>1A1AB5DC-9C6A-4ED4-8AB8-03382F041D64</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="8A93A46C-22EA-0F01-B24D-0C7CC00FEBD7">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>E45781E1-D8D7-3FC3-6E27-1A2E628B684E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CD7A948A-DF7F-F496-04A0-0C48ED0822B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="severity" id="7FD38355-7E3C-4C63-A625-A8FFC6CBD312">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>9E3AD637-D8CB-9CA3-EA6A-06F99AE864C0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CA5EC2C4-D315-44BD-912E-CDFDBD1CB560</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="message" id="5B218DEE-1DED-CE22-910B-85C06A8C1161">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>716FE38A-C5E6-F362-52C8-571DEDFDB2AE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F1FF8C2-1A2D-928C-D9F2-38B3DA440B56</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="9BB5A511-F546-A77D-BB64-B866C9FB8A7C">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>DEE68A9F-F404-99A6-D79E-8B8C700841E8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>6D7D3DD7-CCE5-15D9-129D-3FD5C5CD4E61</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="node_id" id="DD8B720C-D5F6-0E67-F90C-6D27A8835A03">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>C24BE1C5-5A70-7D16-2C7D-0FCCE734DCA4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_id" id="693808B1-4592-3DFA-2E00-BC14C60FA53D">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>955FDA4A-65EC-A498-E739-CDB15E0EC3DF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="045F1810-AE9B-CCC5-4F17-B397FC7C1AE7" referredColumn="9E8D610B-A09E-2F0B-2842-8DEB47DE6CA6"/>
+</associations>
+</Column>
+<Column name="generated_by" id="EF5AD48A-4C1D-1837-09BD-EACC2D4E84FD">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>52F4E25F-BD5E-B013-4B45-1378636F46AF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CA5EC2C4-D315-44BD-912E-CDFDBD1CB560</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="crp_condition_id" id="9F577322-90BB-D882-D7C5-47F098F638C0">
+<createdBy>carol</createdBy>
+<createdTime>2026-04-29 16:10:36 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDF72D6D-64B6-3772-23B7-428C67415C52" referredColumn="7F84C3BC-D05C-C456-34AA-85F274447785"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9BDB1B23-3F2B-EEC6-11EB-BBCC290DF6A4" name="ALERT_PK">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>B7AEDAD1-F4C8-29FA-F758-BC0CD4CD3953</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FFA4141-5324-C1AE-FE5D-D924ECC04C84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA23E53D-3C98-98E3-B569-95D531DC7C78" name="fk_alert_data">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="693808B1-4592-3DFA-2E00-BC14C60FA53D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2F146A9-C4FC-EDE0-D3CE-5BA739200623" name="ALERT_CROP_CONDITION_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-04-29 16:10:36 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F577322-90BB-D882-D7C5-47F098F638C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="chk_alert_severity" directorySegmentName="seg_0" id="BA05F83C-F5BC-ABD5-9199-2979DDBD0F10">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>Diagrama_AgriSense</ownerDesignName>
+<importedID>35C896A5-A726-579D-6136-2F8E2C2ED24F</importedID>
+<rule><![CDATA[severity IN ('LOW','MEDIUM','HIGH')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="chk_alert_source" directorySegmentName="seg_0" id="9D96FC65-9147-625A-8399-21FF2BDC45E7">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>Diagrama_AgriSense</ownerDesignName>
+<importedID>AB14EFC8-DD49-AD6A-4154-CD3F252DB544</importedID>
+<rule><![CDATA[generated_by IN ('EDGE','CLOUD')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

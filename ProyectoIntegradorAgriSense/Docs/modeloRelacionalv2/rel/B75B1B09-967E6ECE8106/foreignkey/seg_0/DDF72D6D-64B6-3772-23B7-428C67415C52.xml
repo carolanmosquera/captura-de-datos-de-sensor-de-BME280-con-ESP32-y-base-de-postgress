@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DDF72D6D-64B6-3772-23B7-428C67415C52" containerWithKeyObject="8A49A7CF-B7E1-A43C-0C97-B8667610C256" localFKIndex="A2F146A9-C4FC-EDE0-D3CE-5BA739200623" name="ALERT_CROP_CONDITION_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-04-29 16:10:36 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<referredTableLongName>CROP_CONDITION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8E855882-0D62-CA51-71EA-59239A0B1C3A</referredTableID>
+<keyObject>27746981-5FFB-0BAC-9B3D-CC016D5ECFA4</keyObject>
+<referredKeyID>27746981-5FFB-0BAC-9B3D-CC016D5ECFA4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

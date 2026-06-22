@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F7652FF-8646-D052-D609-30CC1CB1DA41" name="SENSOR">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>A6AF91CD-54F1-DC9B-DE9A-01451F724E4D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="091D2E24-FCAF-7E04-2341-584B66053991">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>AAA25D3B-5372-99E7-F962-22B0E3E2F476</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sensor_type_id" id="CA2961BC-3B06-C576-ADED-D4F7C8C95931">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>F911D9FE-6852-2B23-E149-D1138B393B7A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85B60097-E534-519D-0166-486459939BF0" referredColumn="2A169E78-37FE-F042-B1DB-80B26BDA32B3"/>
+</associations>
+</Column>
+<Column name="node_id" id="9915133E-C0B0-84DA-F42B-41005FFDB3F7">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>73B62DE4-F5E5-D5DC-F46B-7EBB69173D01</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CF784AE3-83A0-D4D7-A99F-F95C744D8DBC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="esp32slave_id" id="B1EEC96C-536D-8B41-AE2C-D3C7852CD73B">
+<createdBy>carol</createdBy>
+<createdTime>2026-04-29 16:09:21 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C4DE448-EBB6-2338-12DF-79A3447AB8DC" referredColumn="0BC80E0B-2D1C-2D4D-0EF4-597A4EB79445"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCB5FD80-5713-AF75-8A00-955B97CBCE9C" name="SENSOR_PK">
+<sourceDDLFile>Parcial.sql</sourceDDLFile>
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<importedID>2AA8F7B4-93F2-FF8C-5091-27A00C7C7560</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="091D2E24-FCAF-7E04-2341-584B66053991"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0816D70B-01AA-08B8-6F4E-20AC49A83B37" name="fk_sensor_type">
+<createdBy>Adri Jhoanny Murillo</createdBy>
+<createdTime>2026-04-17 15:45:32 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA2961BC-3B06-C576-ADED-D4F7C8C95931"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86C9498E-B63E-BE46-9D07-7A2BDF29A102" name="SENSOR_ESP32SLAVE_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-04-29 16:09:21 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1EEC96C-536D-8B41-AE2C-D3C7852CD73B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7C4DE448-EBB6-2338-12DF-79A3447AB8DC" containerWithKeyObject="8F7652FF-8646-D052-D609-30CC1CB1DA41" localFKIndex="86C9498E-B63E-BE46-9D07-7A2BDF29A102" name="SENSOR_ESP32SLAVE_FK">
+<createdBy>carol</createdBy>
+<createdTime>2026-04-29 16:09:21 UTC</createdTime>
+<ownerDesignName>modeloRelacionalv2</ownerDesignName>
+<referredTableLongName>ESP32SLAVE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9BE4F34A-421E-A643-9322-DFB8CAE98DB2</referredTableID>
+<keyObject>036A826F-7881-8618-CE9B-7726216FB0FE</keyObject>
+<referredKeyID>036A826F-7881-8618-CE9B-7726216FB0FE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
